@@ -6,8 +6,6 @@ public class Infoprojekt11 {
 
     
     public static void main(String[] args) {
-        
-
         int n = 18;
         String mannschaft [] = new String [n];
         mannschaft[0] = "Bayern München";
@@ -30,13 +28,13 @@ public class Infoprojekt11 {
         mannschaft[17] = "1. FC Köln";
         
         int k[] = new int[(n/2)];
-        k[0] = 1;
-        k[1] = 2;
-        k[2] = 3;
-        k[3] = 4;
-        k[4] = 5;
-        k[5] = 6;
-        k[6] = 7;
+        k[0] = (n/2)-8;
+        k[1] = (n/2)-7;
+        k[2] = (n/2)-6;
+        k[3] = (n/2)-5;
+        k[4] = (n/2)-4;
+        k[5] = (n/2)-3;
+        k[6] = (n/2)-2;
         k[7] = (n/2)-1;
         
         for (int i=1; i<=17; i++){
@@ -117,16 +115,7 @@ public class Infoprojekt11 {
         else{
             System.out.println(s_i.mannschaft9+"-"+s_i.mannschaft10);
         }
-        
-       
-        
-        
-
-        
-        
-        
-        
-    }
+         }
     
 }
 
